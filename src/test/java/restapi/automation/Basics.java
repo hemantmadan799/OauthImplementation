@@ -39,7 +39,7 @@ public class Basics {
 		emailID.sendKeys(Keys.ENTER);
 		Thread.sleep(3000);
 		WebElement pwd=driver.findElement(By.xpath("//input[@type='password']"));
-		pwd.sendKeys("hrdocs799");
+		pwd.sendKeys("xyz");
 		pwd.sendKeys(Keys.ENTER);
 		Thread.sleep(4000);
 		String url=driver.getCurrentUrl();
